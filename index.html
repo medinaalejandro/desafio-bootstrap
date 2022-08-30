@@ -14,50 +14,54 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Titulo Principal -->
     <title>La Sifonda</title>
-
 </head>
 
+<!-- Body -->
 <body>
     <nav class="navbar navbar-expand-lg bg-brow">
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <a class="navbar-brand" href="./index.html"><img src="./images/logo-lasifonda.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end fs-5" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link text-white" href="./pages/menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/menu.html">Menu</a>
+                        <a class="nav-link text-white" href="./pages/galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        <a class="nav-link text-white" href="./pages/nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a href="" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- Carrusel -->
     <header>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/c1.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/c1.jpg" class="d-block w-100" alt="Imagen Carrusel">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/c2.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/c2.jpg" class="d-block w-100" alt="Imagen Carrusel">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/c3.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/c3.jpg" class="d-block w-100" alt="Imagen Carrusel">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -72,45 +76,47 @@
             </button>
         </div>
     </header>
+
+    <!-- Main -->
     <main>
         <section class="container-fluid">
             <h2 class="h3 text-center mt-3 mb-4 fs-2">MENU</h2>
-            <p class="text-center">Carta variada con las mejores recetas.</p>
-            <div class="row mt-3 mb-4 justify-content-around">
+            <p class="text-center">CARTA VARIADA CON LAS MEJORES RECETAS.</p>
+            <div class="row mt-3 mb-4 justify-content-evenly">
                 <div class="card mt-3 bg-brow" style="width: 18rem;">
-                    <img src="./images/md1.jpg" class="card-img-top" alt="...">
+                    <img src="./images/md1.jpg" class="card-img-top" alt="Desayuno y Merienda">
                     <div class="card-body bg-brow">
                         <h5 class="card-title">Desayuno y Merienda</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
                 <div class="card mt-3 bg-brow" style="width: 18rem;">
-                    <img src="./images/ma1.jpg" class="card-img-top" alt="...">
+                    <img src="./images/ma1.jpg" class="card-img-top" alt="Almuerzo y Cena">
                     <div class="card-body">
                         <h5 class="card-title">Almuerzo y Cena</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
                 <div class="card mt-3 bg-brow" style="width: 18rem;">
-                    <img src="./images/mv1.jpg" class="card-img-top" alt="...">
+                    <img src="./images/mv1.jpg" class="card-img-top" alt="Bebidas y Vinos">
                     <div class="card-body">
-                        <h5 class="card-title">Bebidas y Vino</h5>
+                        <h5 class="card-title">Bebidas y Vinos</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Ingresar</a>
                     </div>
                 </div>
             </div>
-
         </section>
-        <section id="galeria" class="container-fluid">
+        
+        <section id="galeria" class="container">
             <div>
                 <h2 class="h3 text-center mt-3 mb-4 fs-2">GALERIA</h2>
                 <p class="text-center">Conoce un poco de nosotros</p>
@@ -137,18 +143,23 @@
             </div>
         </section>
 
-        <section>
+        <section class="container">
             <h2 class="h3 text-center mt-3 mb-4 fs-2">NOSOTROS</h2>
             <div> 
             <article>
                 <p class="text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis excepturi, inventore
+                    cupiditate sint minus accusantium. Debitis natus nesciunt quo laborum facere! Enim dolore officiis
+                    facilis perferendis reiciendis veniam, tempore unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p class="text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis excepturi, inventore
+                    cupiditate sint minus accusantium. Debitis natus nesciunt quo laborum facere! Enim dolore officiis
+                    facilis perferendis reiciendis veniam, tempore unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
                 <p class="text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <p class="text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis excepturi, inventore
+                    cupiditate sint minus accusantium. Debitis natus nesciunt quo laborum facere! Enim dolore officiis
+                    facilis perferendis reiciendis veniam, tempore unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
             </article>
             <aside>
@@ -156,9 +167,10 @@
             </aside>
             </div>
         </section>
+
         <section class="container-fluid">
             <h2 class="h3 text-center mt-3 mb-4 fs-2">CONTACTO</h2>
-            <p class="text-center">Envianos tu mensaje</p>
+            <p class="text-center">ENVIANOS TU MENSAJE</p>
             <div class="row justify-content-center">
                 <article class="col-md-6 mb-4">
                     <form class="row g-3">
@@ -219,6 +231,8 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div class="anchoFooter">
             <div class="redes">
@@ -226,10 +240,9 @@
                     <li>Av. Bodereau 7650, Rivera Indarte, Córdoba</li>
                     <li>Te: 351 1234567</li>
                     <li>info@lasifonda.com.ar</li>
-                    <p>NUESTRAS REDES</p>
-                    <a href="" target="_blank"><i class="bi bi-facebook fs-2"></i></a>
-                    <a href="" target="_blank"><i class="bi bi-instagram fs-2"></i></a>
-
+                    <li>NUESTRAS REDES</li>
+                    <a href="" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+                    <a href="" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
                 </ul>
             </div>
         </div>
